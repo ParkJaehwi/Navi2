@@ -6,7 +6,7 @@ CORS(app)
 
 @app.route('/api/data', methods=['GET'])
 def get_data():
-    data = {"message": "change."}
+    data = {"message": "change message."}
     return jsonify(data)
 
 if __name__ == '__main__':
